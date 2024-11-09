@@ -1,0 +1,73 @@
+body{
+    background: lightseagreen;
+}
+
+#resultadosGasolineras {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gradient();
+    font-size: 40px;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center; 
+    
+}
+
+#btn{
+    margin-left: 15px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    background: green;
+}
+
+/* Estilos para cada tarjeta de estación */
+.tarjeta-estacion {
+    margin-top: 25px;
+    width: 200px;
+    border: 3px solid #221414;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
+    font-size: 0.9rem;
+    background-color: lightpink;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+/* Título en la parte superior de la tarjeta */
+.nombre-estacion {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    color: #211f1f;
+    background-color: #d88736;
+    margin: 0;
+    padding-top: 3px;
+    border-bottom: 3px solid rgb(247, 8, 8);
+    text-align: center;
+}
+
+/* Estilos para los precios y dirección */
+.info-precios {
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+
+}
+
+.info-precios p {
+    margin: 3px 0;
+}
+
+.tarjeta-estacion:hover{
+    transform: scale(1.05);
+
+}

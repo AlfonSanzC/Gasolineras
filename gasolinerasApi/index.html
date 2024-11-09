@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precios de Gasolineras</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script type="module" src="main.js"></script>
+</head>
+<body>
+    <h2>Consulta de Precios de Gasolineras</h2>
+
+    <div class="center-container">
+        <label for="municipio"><strong>Municipio:</strong></label>
+        <select name="municipio" id="municipio">
+            <option value="---" disabled selected>Selecciona un municipio</option>
+            <option value="712">Mérida</option>
+            <option value="1579">Cáceres</option>
+            <option value="644">Badajoz</option>
+        </select>
+        <button type="button" id="btn">Consultar Precios</button>
+    </div>
+
+    <div id="resultadosGasolineras"></div>
+
+</body>
+</html>
